@@ -4,6 +4,8 @@
 #include <string>
 #include <thread>
 
+
+// THIS IS NOT THREAD-SAFE CODE.
 int main(int argc, char *argv[])
 {
     std::cout << "\n";
